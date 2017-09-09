@@ -12,21 +12,9 @@ Yandex.Money and WebMoney payment buttons for HikaShop (for order page)
 
 <?php include 'payment_buttons.php'; ?>
 
-Перед следующим кодом:
+Добавьте ее перед первым закрывающим тегом fieldset.
 
-</fieldset>
-<form action="<?php echo hikashop_completeLink('order'.$url_itemid); ?>" method="post" name="adminForm" id="adminForm">
-	<table class="hikashop_order_main_table">
-		<tr>
-			<td>
-				<div id="hikashop_order_right_part" class="hikashop_order_right_part">
-<?php
-		if($this->invoice_type == 'order' || empty($this->element->order_invoice_created)) {
-			echo JText::_('DATE').': '.hikashop_getDate($this->element->order_created, '%d %B %Y');
-		} else {
-			echo JText::_('DATE').': '.hikashop_getDate($this->element->order_invoice_created, '%d %B %Y');
-		}
-?>
+Вы можете добавить код и в другое место, в зависимости от того, где хотите видеть кнопки.
 
 3. Скопируйте файл payment_buttons.php в папку templates/ВАШ_ШАБЛОН/html/com_hikashop/order. В данной папке у вас уже находится файл show.php.
 

@@ -16,6 +16,8 @@ Yandex.Money and WebMoney payment buttons for HikaShop (for order page)
 
 </fieldset>
 <form action="<?php echo hikashop_completeLink('order'.$url_itemid); ?>" method="post" name="adminForm" id="adminForm">
+...
+</form>
 
 3. Скопируйте файл payment_buttons.php в папку templates/ВАШ_ШАБЛОН/html/com_hikashop/order. В данной папке у вас уже находится файл show.php.
 

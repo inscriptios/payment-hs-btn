@@ -1,5 +1,5 @@
 # payment-hs-btn
-Yandex.Money and WebMoney payment buttons for HikaShop (for order page)
+
 Кнопки оплаты Яндекс.Денег и WebMoney для HikaShop (на странице заказа)
 
 Чтобы добавить кнопки оплаты на страницу заказа, выполните следующие шаги:

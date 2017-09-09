@@ -12,8 +12,11 @@ Yandex.Money and WebMoney payment buttons for HikaShop (for order page)
 
 <?php include 'payment_buttons.php'; ?>
 
-Перед следующим кодом:
+Чтобы получилось следующее:
 
+<fieldset>
+...
+<?php include 'payment_buttons.php'; ?>
 </fieldset>
 <form action="<?php echo hikashop_completeLink('order'.$url_itemid); ?>" method="post" name="adminForm" id="adminForm">
 ...

@@ -10,9 +10,15 @@ Yandex.Money and WebMoney payment buttons for HikaShop (for order page)
 
 Строка:
 
+```
 <?php include 'payment_buttons.php'; ?>
+```
 
-Добавьте ее перед первым закрывающим тегом fieldset.
+Добавьте ее перед первым закрывающим тегом
+
+```
+</fieldset>
+```
 
 Вы можете добавить код и в другое место, в зависимости от того, где хотите видеть кнопки.
 
